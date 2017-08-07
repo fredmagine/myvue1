@@ -82,6 +82,8 @@ devMiddleware.waitUntilValid(() => {
   _resolve()
 })
 
+app.use('/mock', express.static('./mock'))
+
 var server = app.listen(port)
 
 module.exports = {
