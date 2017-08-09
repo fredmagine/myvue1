@@ -13,3 +13,4 @@
 ## git 支持
 
 - 局域网git配置 - tortoisegit
+- tortoise git push 到 github
