@@ -4,6 +4,9 @@
     <ul id='links'>
         <li> <router-link to="/login">去登录</router-link> </li>
         <li> <router-link to="/myList">用户列表</router-link> </li>
+        <li> <router-link to="/markdown">Markdown</router-link> </li>
+        <li> <router-link to="/github">Github</router-link> </li>
+          <li> <router-link to="/searchGrid">searchGrid</router-link> </li>
     </ul>
      <div class="Link">
         <p>添加网站</p>
@@ -39,6 +42,11 @@ export default {
       // alert('okay')
       links.appendChild(newLinkLi)
       this.$router.push('login')
+    }
+  },
+   watch: {
+    linkName: function(n, o) {
+      console.log(n)
     }
   }
 }

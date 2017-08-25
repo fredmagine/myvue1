@@ -3,6 +3,8 @@
 import Vue from 'vue'
 import App from './App'
 import router from './router'
+import marked from 'marked'
+
 
 Vue.config.productionTip = false
 
@@ -41,9 +43,18 @@ Vue.prototype.get = function (url,params,fn) {
 }
 
 /* eslint-disable no-new */
-new Vue({
+var vm = new Vue({
   el: '#app',
   router,
   template: '<App/>',
   components: { App }
 })
+
+vm.$watch('linkName', function(n, o) {
+  console.log('new coming')
+})
+
+console.log('2222')
+// debugger;
+console.log(vm.$children)
+console.log('sljdflj')
