@@ -6,7 +6,10 @@
         <li> <router-link to="/myList">用户列表</router-link> </li>
         <li> <router-link to="/markdown">Markdown</router-link> </li>
         <li> <router-link to="/github">Github</router-link> </li>
-          <li> <router-link to="/searchGrid">searchGrid</router-link> </li>
+        <li> <router-link to="/searchGrid">searchGrid</router-link> </li>
+        <li> <router-link to="/appendTree">appendTree</router-link> </li>
+        <li> <router-link to="/olTree">olTree</router-link> </li>
+
     </ul>
      <div class="Link">
         <p>添加网站</p>

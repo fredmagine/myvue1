@@ -6,7 +6,8 @@ import Login from '@/components/Login'
 import Markdown from '@/components/Markdown'
 import Github from '@/components/Github'
 import SearchGrid from '@/components/SearchGrid'
-
+import AppendTree from '@/components/AppendTree'
+import OlTree from '@/components/OlTree'
 
 Vue.use(Router)
 
@@ -36,6 +37,16 @@ export default new Router({
       path: '/searchGrid',
       name: 'SearchGrid',
       component: SearchGrid
+    },
+    {
+      path: '/appendTree',
+      name: 'AppendTree',
+      component: AppendTree
+    },
+    {
+      path: '/olTree',
+      name: 'OlTree',
+      component: OlTree
     },
     {
       path: '/login',
