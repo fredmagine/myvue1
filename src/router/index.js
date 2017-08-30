@@ -8,6 +8,7 @@ import Github from '@/components/Github'
 import SearchGrid from '@/components/SearchGrid'
 import AppendTree from '@/components/AppendTree'
 import OlTree from '@/components/OlTree'
+import SvgCircle from '@/components/SvgCircle'
 
 Vue.use(Router)
 
@@ -47,6 +48,11 @@ export default new Router({
       path: '/olTree',
       name: 'OlTree',
       component: OlTree
+    },
+    {
+      path: '/svgCircle',
+      name: 'SvgCircle',
+      component: SvgCircle
     },
     {
       path: '/login',

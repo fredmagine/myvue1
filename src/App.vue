@@ -9,6 +9,8 @@
         <li> <router-link to="/searchGrid">searchGrid</router-link> </li>
         <li> <router-link to="/appendTree">appendTree</router-link> </li>
         <li> <router-link to="/olTree">olTree</router-link> </li>
+        <li> <router-link to="/svgCircle">svgCircle</router-link> </li>
+
 
     </ul>
      <div class="Link">
