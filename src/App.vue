@@ -10,7 +10,10 @@
         <li> <router-link to="/appendTree">appendTree</router-link> </li>
         <li> <router-link to="/olTree">olTree</router-link> </li>
         <li> <router-link to="/svgCircle">svgCircle</router-link> </li>
-
+        <li> <router-link to="/modalExample">modalExample</router-link> </li>
+        <li> <router-link to="/flexHeader">flexHeader</router-link> </li>
+        <li> <router-link to="/flexHeader">flexHeader</router-link> </li>
+        <li> <router-link to="/selectOpt2">select2</router-link> </li>
 
     </ul>
      <div class="Link">

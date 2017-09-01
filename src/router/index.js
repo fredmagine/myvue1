@@ -9,6 +9,10 @@ import SearchGrid from '@/components/SearchGrid'
 import AppendTree from '@/components/AppendTree'
 import OlTree from '@/components/OlTree'
 import SvgCircle from '@/components/SvgCircle'
+import ModalExample from '@/components/ModalExample'
+import FlexHeader from '@/components/FlexHeader'
+import SelectOpt2 from '@/components/SelectOpt2'
+
 
 Vue.use(Router)
 
@@ -53,6 +57,21 @@ export default new Router({
       path: '/svgCircle',
       name: 'SvgCircle',
       component: SvgCircle
+    },
+    {
+      path: '/modalExample',
+      name: 'ModalExample',
+      component: ModalExample
+    },
+    {
+      path: '/flexHeader',
+      name: 'FlexHeader',
+      component: FlexHeader
+    },
+    {
+      path: '/selectOpt2',
+      name: 'SelectOpt2',
+      component: SelectOpt2
     },
     {
       path: '/login',

@@ -42,6 +42,7 @@ function valueToPoint (value, index, total) {
 }
 
 // A resusable polygon graph component
+// 组件内再注册组件！
 Vue.component('polygraph', {
   props: ['stats'],
   template: '#polygraph-template',
